@@ -1,4 +1,4 @@
-from ubuntu:trusty
+from i686/ubuntu
 
 run echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
 
